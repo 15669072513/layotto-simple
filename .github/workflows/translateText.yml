@@ -16,4 +16,4 @@ jobs:
           fromDir: ./layotto/docs/zh/
           toDir: ./layotto/docs/en/
           to: en
-          gitToken: {{TOKEN}}
+          gitToken: ${{ TOKEN }}
